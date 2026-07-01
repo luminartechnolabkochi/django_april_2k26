@@ -46,10 +46,14 @@
     );
 
 
+#query for inserting records
 
+    mysql> insert into table_name (column1,column2,,,,) values(val1,val2,val3)
 
+    eg:
 
-
+    mysql > insert into vehicle (name,price,model,fuel_type,running_km,location,contact,owner_type) values
+                                ("hero cddown",15000,2005,"petrol",23000,"thrissur",56567890,"single");
 
 
 
